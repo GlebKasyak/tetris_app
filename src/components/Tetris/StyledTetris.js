@@ -25,4 +25,12 @@ export const StyledTetris = styled.div`
         padding: 0 20px;
     }
 
+    @media(max-width: 991px) {
+        width: 60%;
+    }
+    
+    @media(max-width: 575px) {
+        width: auto;
+        justify-content: space-between;
+    }
 `;

@@ -14,4 +14,20 @@ export const StyledDisplay = styled.div`
     background: #000;
     font-family: Pixel, Arial, sans-serif;
     font-size: 0.8rem;
+    
+    @media(max-width: 767px) {
+        font-size: 0.6rem;
+        padding: 12px;
+        border-radius: 15px;
+        margin: 0 0 10px;
+    }
+    
+     @media(max-width: 575px) {
+        font-size: 0.4rem;
+        padding: 7px;
+        border-radius: 9px;
+        border-width: 2px;;
+        min-height: auto;
+     }
+    
 `;
